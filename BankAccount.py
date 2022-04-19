@@ -20,5 +20,8 @@ class BankAccount:
 account1 = BankAccount(100, "전우치", 15000)
 account1.deposit(5000)
 account1.withdraw(3000)
-
+#print(account1.__balance)
+#외부에서 접근: _클래스명__balance
+#백도어
+#print(account1._BankAccount__balance)
 print(account1)
