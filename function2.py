@@ -57,7 +57,8 @@ def userURIBuilder(server, port, **user):
 print(userURIBuilder("credu.com", "80", id="kim", passwd="1234"))
 print(userURIBuilder("credu.com", "80", id="kim", passwd="1234", name="mike"))
 
-#람다함수(이름이 없는 간결한 함수 정의)
+#람다함수(이름이 없는 간결한 함수 정의):일회용품(함수의 인자로 함수명)
+# x와y를 입력받아서 처리 
 g = lambda x,y:x*y
 print(g(3,4))
 print(g(5,6))
