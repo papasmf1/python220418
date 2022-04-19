@@ -38,3 +38,19 @@ for i in lst:
     if i % 2 == 0:
         continue
     print("Item:{0}".format(i))
+
+#수열함수
+print(list(range(10)))
+print(list(range(1,11)))
+
+#메뉴얼하게 루프를 도는 경우
+for i in range(10):
+    print(i)
+
+#년도
+print(list(range(2000,2023)))
+
+#리스트 컴프리헨션(리트스 임베딩)
+lst = list(range(1,11))
+print([i**2 for i in lst if i > 5])
+
