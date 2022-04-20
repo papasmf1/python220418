@@ -1,11 +1,11 @@
-# try1.py 
+# try1.py (곽튜브 + IT잇섭)
 #함수 정의
 def divide(a,b):
     return a/b 
 
 try:
     #함수 호출
-    result = divide(5,0)
+    result = divide(5,2)
 except TypeError:
     print("숫자여야 합니다.")
 except ZeroDivisionError:
