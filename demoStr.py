@@ -19,5 +19,9 @@ print(strC.strip("<> "))
 result = strC.strip("<> ")
 result = result.replace("spam", "spam egg")
 print(result)
+lst = result.split() 
+print(lst)
+print(":)".join(lst))
+
 
 
