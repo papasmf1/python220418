@@ -8,5 +8,9 @@ print(len(strB))
 print(strB.capitalize())
 print(strB.count("p"))
 print(strB.count("p", 7))
+print("demo.ppt".endswith("ppt"))
+print("MBC2580".isalnum())
+print("MBC:2580".isalnum())
+print("2580".isdecimal())
 
 
