@@ -9,6 +9,13 @@ cur = con.cursor()
 cur.execute("create table PhoneBook (Name text, PhoneNum text);")
 #1건을 입력
 cur.execute("insert into PhoneBook values ('derick','010');")
+#입력 파라메터 처리
+name = "gildong"
+phoneNumber = "010-222"
+cur.execute("insert into PhoneBook values (?, ?);", (name, phoneNumber))
+#N건을 입력
+datalist = (("tom","010-123"),("dsp","010-333"))
+cur.executemany("insert into PhoneBook values (?, ?);", datalist)
 #검색
 cur.execute("select * from PhoneBook;")
 for row in cur:
