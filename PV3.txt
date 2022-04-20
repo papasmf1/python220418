@@ -1,15 +1,17 @@
 lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2014.02.06.04)
 RegOpenKey(Software\AHNLAB\APC2\Policy Agent) : 0
 RegQueryValueEx(C:\Program Files (x86)\AhnLab\APC2\Policy Agent) : 0
-hRst = 2
+hRst = 2 error 100:erorr 
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmV3Pro.exe)hRst = 2
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmAsz.exe)lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2014.02.07.00)
 RegOpenKey(Software\AHNLAB\APC2\Policy Agent) : 0
+error 100:erorr 
 RegQueryValueEx(C:\Program Files (x86)\AhnLab\APC2\Policy Agent) : 0
 hRst = 2
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmV3Pro.exe)hRst = 2
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmAsz.exe)lpParam : -1, 0, 999, 업데이트가 완료되었습니다. (2014.03.11.01)
 RegOpenKey(Software\AHNLAB\APC2\Policy Agent) : 0
+error 100:erorr 
 RegQueryValueEx(C:\Program Files (x86)\AhnLab\APC2\Policy Agent) : 0
 hRst = 2
  (C:\Program Files (x86)\AhnLab\APC2\Policy Agent\AmV3Pro.exe)hRst = 2

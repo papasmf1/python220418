@@ -11,7 +11,7 @@ g=open('c:\\work\\PV3_copy.txt','wt',encoding='utf-8')
 #파일의 EOF(End Of File)이 아니면 계속 읽도록 한다. 
 line = f.readline()
 while (line != ''):
-    if (re.search("\d{4}", line)):
+    if (re.search("error", line)):
         g.write(line + "\n")
     line = f.readline()
 
