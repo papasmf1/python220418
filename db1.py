@@ -5,7 +5,7 @@ import sqlite3
 con = sqlite3.connect(":memory:")
 #구문을 수행할 커서 객체 
 cur = con.cursor() 
-#테이블 구조(테이블 스키마)
+#테이블 구조(테이블 스키마):SQL구문은 대소문자 구분안함. 
 cur.execute("create table PhoneBook (Name text, PhoneNum text);")
 #1건을 입력
 cur.execute("insert into PhoneBook values ('derick','010');")
