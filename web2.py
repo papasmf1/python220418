@@ -13,4 +13,8 @@ soup = BeautifulSoup(data, "html.parser")
 # </td>
 cartoons = soup.find_all("td", class_="title")
 print("개수:{0}".format(len(cartoons)))
-
+#내부에 있는 <a>태그 검색 
+title = cartoons[0].find("a").text 
+link = cartoons[0].find("a")["href"]
+print(title)
+print(link)
