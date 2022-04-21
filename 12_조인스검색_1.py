@@ -8,7 +8,6 @@ hdr = {'User-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) Appl
 
 f = open("c:\\work\\land.txt", "wt", encoding="utf-8")
 for n in range(1,10):
-        #클리앙의 중고장터 주소  ### change
         # data ='https://price.joinsland.joins.com/theme/index_theme.asp?CSRFToken=QTBXHIeBclsWuqhLwvMtGyPvQJwMBKgRjVsBUjsP&sisaegbn=T07&areaCode=4141000000&searchgbn=&page=' + str(n)
         data ='https://price.joinsland.joins.com/theme/index_theme.asp?CSRFToken=QoirJNvBMKgtFgSKqmIjdNVhwHBjlNkdeoiuTPvs&sisaegbn=T07&areaCode=4111700000&searchgbn=&page=' + str(n)
         print (data)
