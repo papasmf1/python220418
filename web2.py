@@ -18,3 +18,11 @@ title = cartoons[0].find("a").text
 link = cartoons[0].find("a")["href"]
 print(title)
 print(link)
+
+for item in cartoons:
+    title = item.find("a").text 
+    print(title.strip())
+
+
+
+https://comic.naver.com/webtoon/list?titleId=20853&weekday=fri&page=1
