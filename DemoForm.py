@@ -15,8 +15,8 @@ class DemoForm(QDialog, form_class):
         self.label.setText("첫번째 Qt데모")
 
 #직접 모듈을 실행했는지 체크
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    demoWindow = DemoForm()
-    demoWindow.show()
-    app.exec_() 
+# if __name__ == "__main__":
+app = QApplication(sys.argv)
+demoWindow = DemoForm()
+demoWindow.show()
+app.exec_() 
