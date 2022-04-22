@@ -1,0 +1,9 @@
+key1,key2,value1,value2
+mobile, ios, 100, 200
+mobile, android, 200, 500
+mobile, bada, 5, 10 
+mobile, tizen, 150, 250
+notebook, ios, 11, 12
+notebook, android, 22, 33 
+notebook, bada, 50, 60
+notebook, tizen, 300, 400 
